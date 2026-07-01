@@ -1,0 +1,113 @@
+canonical_identifier: bkk:krp/KR6k0051/v1
+canonical_location: https://kanripo.org/bkk/KR6k0051/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 式叉摩那尼戒本
+  identifiers:
+    alt_id:
+    - X40n0725
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X40/X40n0725.xml
+    old_id: X40n0725
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0051_000.yaml, hash: 'sha256:fcd81b46873b8dbdb12b756c552f3285546356908ec65f13e81ecdf52a10c7b3'}
+  - {seq: 1, filename: KR6k0051_001.yaml, hash: 'sha256:13bcd5e7d9d271c77ce98a269067e13e3ac530cbf8332c725ac051532eff82aa'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0051_000.markers.yaml, hash: 'sha256:2e52a15d9fc99b56c6ffd35cf5a69b98b47e66e0b20bc81af36bde23cf24589c'}
+  - {seq: 1, role: markers, filename: assets/KR6k0051_001.markers.yaml, hash: 'sha256:29370ec3eb5e58100d644d5ebb231649e621c9272e9b32da7f9b3733db678e6a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6k0051_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 725-A 式义摩那尼戒本序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6k0051_X_000-mulu-2
+    span:
+    - front
+    - 339
+    - 339
+  label: 目次
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0051_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 7997
+  label: 式叉摩那尼戒本出曇無德部
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0051_X_001-mulu-1
+    span:
+    - body
+    - 14
+    - 14
+  label: 前文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0051_X_001-mulu-2
+    span:
+    - body
+    - 84
+    - 84
+  label: 初學四根本
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0051_X_001-mulu-3
+    span:
+    - body
+    - 526
+    - 526
+  label: 二學六法
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0051_X_001-mulu-4
+    span:
+    - body
+    - 748
+    - 748
+  label: 三學二百九十二行法
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0051_X_001-mulu-5
+    span:
+    - body
+    - 7773
+    - 7773
+  label: 懺二百九十二行法法
+  type: mulu
+  level: 1
+hash: sha256:d526b2b3263e81197c137d7488e32cf7a57b6d6aa2c060842c893b0b545b8626
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
