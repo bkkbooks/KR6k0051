@@ -21,17 +21,17 @@ editions:
 - short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6k0051_000.yaml, hash: 'sha256:b56e10689647be0da7efe0499b2448c6ef46c0689dec01efe7cb091b640b2ce8'}
+  - {seq: 0, filename: KR6k0051_000.yaml, hash: 'sha256:25ccd2efcb30cbd2c520ac72937c2f84632fae3f3baaf806229dc9209b7b0abb'}
   - {seq: 1, filename: KR6k0051_001.yaml, hash: 'sha256:7b7fb1f20d32adfb9ce305590e8687b1aaf3257d5789240d52c179969eaa9971'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6k0051_000.markers.yaml, hash: 'sha256:535e8d0743bbc78e36f6ec3596d1b246b8c7bd30c5946513877c0cda9f5b04ed'}
+  - {seq: 0, role: markers, filename: assets/KR6k0051_000.markers.yaml, hash: 'sha256:eccc02522bb363b8c2ded57146900b09822bbf5bea0bd251c3c0e751504dbf1e'}
   - {seq: 1, role: markers, filename: assets/KR6k0051_001.markers.yaml, hash: 'sha256:fa055f6d91822600d56d7dd6cc13f250182f4197e5a5900aae15cdbca0996c41'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6k0051_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 725-A 式义摩那尼戒本序
@@ -41,7 +41,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6k0051_X_000-mulu-2
     span:
-    - front
+    - body
     - 339
     - 339
   label: 目次
@@ -107,7 +107,7 @@ table_of_contents:
   label: 懺二百九十二行法法
   type: mulu
   level: 1
-hash: sha256:8761d97f2bddb0fa5ec82d1ae87ce862f1a5683ca087d65c2f91d09f29b2a095
+hash: sha256:efca6f62fdbc000b3c11b3d93b182a565d85969740125da53d88108210e2c1bf
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
